@@ -384,7 +384,7 @@ export const getShareableLink = async (req, res) => {
             });
         }
 
-        const baseUrl = process.env.FRONTEND_URL || "http://localhost:5173";
+        const baseUrl ="https://document-sharing-zeta.vercel.app";
 
         const shareLink = `${baseUrl}/documentDetail/${doc.slug}`;
 
@@ -440,7 +440,7 @@ export const joinByLink = async (req, res) => {
       returnDocument: 'after'   
   }
 );
-    const baseUrl = process.env.FRONTEND_URL || "http://localhost:5173";
+    const baseUrl ="https://document-sharing-zeta.vercel.app";
 
         const shareLink = `${baseUrl}/doc/${docs_id}`;
 
