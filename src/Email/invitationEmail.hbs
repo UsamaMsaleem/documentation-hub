@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>You're Invited!</title>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f8fafc; font-family: 'Inter', system-ui, -apple-system, sans-serif;">
+
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #f8fafc; padding: 40px 0;">
+        <tr>
+            <td align="center">
+                <table width="600" border="0" cellspacing="0" cellpadding="0" style="background-color: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,0.05);">
+                    
+                    <!-- Header with Gradient -->
+                    <tr>
+                        <td align="center" style="background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%); padding: 50px 40px;">
+                            <h1 style="margin: 0; color: #ffffff; font-size: 28px; font-weight: 800; letter-spacing: -0.025em;">
+                                Documentation Hub
+                            </h1>
+                        </td>
+                    </tr>
+
+                    <!-- Main Content -->
+                    <tr>
+                        <td style="padding: 40px 40px 20px 40px; color: #1e293b; font-size: 16px; line-height: 1.6; text-align: left;">
+                            <h2 style="margin: 0 0 16px 0; color: #111827; font-size: 22px; font-weight: 700;">
+                                You've been invited!
+                            </h2>
+                            <p style="margin: 0 0 16px 0;">Hello there,</p>
+                            <p style="margin: 0 0 24px 0;">
+                                You have been invited to join <strong>Documentation Hub</strong>. 
+                                Our platform helps teams organize, collaborate, and share knowledge seamlessly.
+                            </p>
+                            
+                            <div style="background-color: #f1f5f9; border-left: 4px solid #6366f1; border-radius: 8px; padding: 20px; margin-bottom: 30px;">
+                                <p style="margin: 0; color: #475569; font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px;">
+                                    Invitation Details
+                                </p>
+                                <p style="margin: 0; color: #1e293b; font-size: 15px;">
+                                    <strong>Email:</strong> {{email}}<br>
+                                </p>
+                            </div>
+
+                            <p style="margin: 0 0 24px 0;">
+                                To get started and set up your account, please click the button below:
+                            </p>
+                        </td>
+                    </tr>
+
+                    <!-- Call to Action -->
+                    <tr>
+                        <td align="center" style="padding: 0 40px 40px 40px;">
+                            <a href="http://localhost:5173/signup?email={{email}}" 
+                               target="_blank" 
+                               style="background-color: #6366f1; color: #ffffff; display: inline-block; padding: 16px 40px; border-radius: 12px; text-decoration: none; font-weight: 700; font-size: 16px; box-shadow: 0 4px 12px rgba(99, 102, 241, 0.25); transition: all 0.2s ease;">
+                                Accept Invitation
+                            </a>
+                        </td>
+                    </tr>
+
+                    <!-- Footer Note -->
+                    <tr>
+                        <td style="padding: 0 40px 40px 40px; color: #64748b; font-size: 14px; text-align: center; border-top: 1px solid #f1f5f9; padding-top: 30px;">
+                            <p style="margin: 0 0 8px 0;">
+                                If the button above doesn't work, copy and paste this link into your browser:
+                            </p>
+                            <p style="margin: 0; word-break: break-all; color: #6366f1;">
+                                http://localhost:5173/signup?email={{email}}
+                            </p>
+                        </td>
+                    </tr>
+
+                    <!-- Support Footer -->
+                    <tr>
+                        <td align="center" style="padding: 20px; background-color: #f8fafc; color: #94a3b8; font-size: 12px;">
+                            <p style="margin: 0 0 4px 0;">&copy; 2024 Documentation Hub. All rights reserved.</p>
+                            <p style="margin: 0;">Organization Management Tool</p>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
